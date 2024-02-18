@@ -1,0 +1,164 @@
+.bgcolour {
+    background-color: #121212;
+}
+
+li {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img {
+    background-image: url(images/15pro1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url(images/iphone1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(images/visionpro1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img3 {
+    width: 50%;
+    height: 650px;
+    background-image: url(images/watch.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4 {
+    width: 50%;
+    height: 650px;
+    background-image: url(images/macbook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    width: 50%;
+    height: 650px;
+    background-image: url(images/ipad1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img6{
+    width: 50%;
+    height: 650px;
+    background-image: url(images/airpods1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img7{
+    width: 50%;
+    height: 650px;
+    background-image: url(images/card1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img8{
+    width: 50%;
+    height: 650px;
+    background-image: url(images/trading1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:740px) {
+    .img {
+        background-image: url(images/15pro2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img1 {
+        background-image: url(images/iphone2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img2 {
+        background-image: url(images/visionpro2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media screen and (max-width:830px){
+    .img3 {
+        width: 50%;
+        height: 650px;
+        background-image: url(images/watchpro.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media screen and (max-width:1060px) {
+    .img3 {
+        width: 50%;
+        height: 650px;
+        background-image: url(images/watchpro.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img4 {
+        width: 50%;
+        height: 650px;
+        background-image: url(images/macbookpro.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img5{
+        width: 50%;
+        height: 650px;
+        background-image: url(images/ipads2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img6{
+        width: 50%;
+        height: 650px;
+        background-image: url(images/airpods2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img7{
+        width: 50%;
+        height: 650px;
+        background-image: url(images/card2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img8{
+        width: 50%;
+        height: 650px;
+        background-image: url(images/trading2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+a:hover{
+    text-decoration: underline !important;
+}
